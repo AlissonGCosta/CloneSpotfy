@@ -8,10 +8,79 @@ body,html{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #333;
+    color: #ddd;
+    font-family: 'Montserrat', sans-serif;
 }
 
 img{
     width: 300px;
     height: 300px;
 
+}
+
+.description{
+    width: 300px;
+    margin-bottom: 5px;
+}
+
+.music-duration{
+    width: 300px;
+    margin-top: 15px;
+
+}
+.barra{
+    width: 300px;
+    height: 6px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+progress{
+    height: 6px;
+    width: 0;
+    background-color: #333;
+}
+
+.ponto{
+    width: 20px;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+
+.music-time{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.player{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+.fa-play-circle, .fa-pause-circle{
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.fa-step-backward, .fa-step-forward{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.player > .fa-pause-circle{
+    display: none;
 }

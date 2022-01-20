@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Player Sptofy</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
     <link 
         rel="stylesheet" 
@@ -24,23 +28,25 @@
     <div class="music-duration">
         <div class="barra">
                 <progress value="" max="1"></progress>
+                <div class="ponto"></div>
         </div>
 
         <div class="music-time">
             <p class="start">0:00</p>
-            <p class="end">3:40</p>
+            <p class="end">0:00</p>
         </div>
     </div>
 
     <div class="player">      
         
         <i class="fas fa-step-backward"></i>
-        <i class="far fa-play-circle"></i>
-        <i class="far fa-pause-circle"></i>
+        <i class="far fa-play-circle botao-play"></i>
+        <i class="far fa-pause-circle botao-pause"></i>
         <i class="fas fa-step-forward"></i>
 
     </div>
 
     <audio src="musicas/Busy City - TrackTribe.mp3"></audio>
+    <script src="script.js"></script>
 </body>
 </html>
